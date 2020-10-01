@@ -46,8 +46,7 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute("src", siteContent["nav"]["img-src"]);
 
-// const titleText = document.querySelector("title");
-// titleText.textContent("Great Idea!");
+const titleText = (document.title = "Great Idea!");
 
 //NAV
 
