@@ -61,10 +61,12 @@ navBar[5].textContent = "Contact";
 const newNavItem = document.createElement("a");
 newNavItem.textContent = "Home";
 newNavItem.style.color = "green";
+newNavItem.setAttribute("href", "#");
 
 const newNavItem2 = document.createElement("a");
 newNavItem2.textContent = "Help";
 newNavItem2.style.color = "green";
+newNavItem2.setAttribute("href", "#");
 
 const navBarAll = document.querySelector("nav");
 navBarAll.appendChild(newNavItem2);
